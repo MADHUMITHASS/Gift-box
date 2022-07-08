@@ -1,0 +1,43 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+     background-color: thistle;
+     text-align:center ;
+     margin-top: 100px;
+
+}
+.myDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+  }
+  #grid {
+      display:flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+     border: solid black; 
+    position: absolute;
+    margin:10px;
+   
+  }
+  .container{
+      display:flex;
+      justify-content: center;
+      margin-top: 200px;
+      height: auto;
+  } 
+  #main {
+    margin-top: 100px;
+
+  }
